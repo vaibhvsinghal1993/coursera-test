@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  
+}
+
+body{
+  padding: 15px;
+  font-family:  sans-serif;
+}
+
+ h1 {
+  text-align: center;
+  margin: 20px 20px 40px 20px;
+}
+
+p{
+  
+  padding: 40px;
+}
+
+#section1 {
+    background-color: orange;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 5%;
+
+  }
+
+ 
+
+  #section3{
+    background-color: green;
+    position: relative;
+    margin-bottom: 20px;
+   }
+
+/********** Desktop viewy **********/
+@media (min-width: 992px) {
+  .desktop{
+  float: left;
+    border: 1px solid black;
+    width: 30%;
+}
+  
+   #section2{
+   background-color: white;
+   position: relative;
+   margin-bottom: 20px;
+   margin-right: 5%;
+
+  }
+}
+
+
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .tablet1{
+    float: left;
+    border: 1px solid black;
+    width: 47.5%;
+  }
+
+  .tablet3{
+    float: left;
+    border: 1px solid black;
+    width: 100%;
+  }
+ #section2{
+   background-color: white;
+   position: relative;
+   margin-bottom: 20px;
+   
+
+  }
+  
+  
+  }
+
+/**********&**Mobile view***********/
+  @media (max-width: 767px) {
+  
+  .mobile{
+    border: 1px solid black;
+    float: left;
+    width: 100%;
+  }
+    
+     #section2{
+   background-color: white;
+   position: relative;
+   margin-bottom: 20px;
+   margin-right: 5%;
+
+  }
+  }
+  
+  
+
+  #section1 h2 {
+    width:120px;
+    height:35px;
+   border: 1px solid black ;
+    text-align: center;
+    margin-top: 0px;
+    background-color: grey;
+    position: absolute;
+    right: 0px;
+  }
+  #section2 h2 {
+    width:120px;
+    height:35px;
+   border: 1px solid black ;
+    text-align: center;
+    margin-top: 0px;
+    background-color: magenta;
+    position: absolute;
+    right: 0px;
+  }
+   #section3 h2 {
+    width:120px;
+    height:35px;
+   border: 1px solid black ;
+    text-align: center;
+    
+    margin-top: 0px;
+    background-color: darkblue;
+    position: absolute;
+    right: 0px;
+  }
